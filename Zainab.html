@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <head>
 <img src="Welcome.png" alt="W3Schools.com" Height="142" Width= "1400">
+<style>
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-<link rel = "stylesheet" type = "text/css" href="mystyle.css" />
+.item {
+    float: left;
+}
+
+.item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.item a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+div.a {
+    font-size: 15px;
+}
+
+div.b {
+    font-size: large;
+}
+
+div.c {
+    font-size: 150%;
+}
+
+</style>
 
 <ul class = "navbar">
-  <li class = "item"><a href="index.html">Home</a></li>
-  <li class = "item"><a href="Codingportfolio.html">Coding Portfolio</a></li>
+  <li class = "item"><a href="#home">Home</a></li>
+  <li class = "item"><a href="#about me">About Me</a></li>
   <li class = "item"><a href="#contact">Contact</a></li>
   <li class = "item" style="float:right"><a class="active" href="#about">About</a></li>
 </ul>
